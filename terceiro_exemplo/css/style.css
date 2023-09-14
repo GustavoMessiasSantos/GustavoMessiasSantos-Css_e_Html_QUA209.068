@@ -1,0 +1,95 @@
+body ul, li, a{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header{
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+nav{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li{
+    margin: 20px;
+}
+
+nav ul li:last-child{
+    margin-right: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section{
+    padding: 40px;
+}
+
+.escola{
+    background-image: url("../imagens/curso.jpg");
+    background-size: cover;
+    background-position: center;
+    color:rgb(5, 15, 155);
+    text-align: center;
+}
+
+.escola-content{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.escola h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: rgb(14, 14, 14);
+    text-shadow:  1px 1px 1px rgb(250, 246, 246);
+}
+
+.escola p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: rgb(15, 211, 9);
+    text-shadow: 2px 2px 2px #141414;
+}
+
+.btn-aprenda{
+    display: inline-block;
+    background-color: #333;
+    color: #f0f0f0;
+    padding: 10px 20px;
+    text-align: none;
+    font-weight: bold;
+    border: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-aprende:hover{
+    background-color: #555;
+}
