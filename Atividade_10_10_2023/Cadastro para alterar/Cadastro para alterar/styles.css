@@ -1,0 +1,129 @@
+/* Estilos para o menu */
+.menu {
+    background-image: url(imagens/teste3.jpg);
+    color: rgba(0, 0, 0, 0.548);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+body{
+    background-image: url(imagens/teste3.jpg);
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    align: center
+}
+
+/* Estilos para o conteúdo da página */
+main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.pagina {
+    display: none;
+}
+
+/* Estilos para o cabeçalho e rodapé */
+header,
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para a imagem de programação */
+header img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.sobre,
+p, a {
+    font-family: "Arial", sans-serif;
+    color: rgba(250, 246, 246, 0.986);
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    word-spacing: 2px;
+}
+
+h1,
+h2,
+ol {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.java {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: 5px solid #fdfcff;
+    border-radius: 10px;
+    align: center;
+}
+
+#cadastro {
+    display: none;
+    text-align: center;
+    background-color: #0b0c0c; /* Cor de fundo azul */
+    color: white; /* Cor do texto branco */
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  #cadastro h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #cadastro label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #cadastro input[type="text"],
+  #cadastro input[type="date"],
+  #cadastro input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  #cadastro input[type="submit"] {
+    background-color: #0632f7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #cadastro input[type="submit"]:hover {
+    background-color: #e73407f5;
+  }
